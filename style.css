@@ -1,0 +1,214 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f9f4;
+    color:#333;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+}
+
+nav:hover {
+    background-color: #91C4DC;
+}
+
+
+
+.dropdown {
+    display:inline-block;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    z-index: 12;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color:black;
+    display:block;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #91C4DC;
+}
+
+.grid-container {
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 70vh;
+    background-color: aquamarine;
+}
+
+.slogan-container {
+    height:70vh;
+    background-image: url("./converted_image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan-text {
+    width:60%;
+    margin-bottom: 50px;
+}
+
+
+
+h1 {
+    margin:0;
+    padding:0;
+}
+
+h1 span {
+    color:purple;
+
+}
+
+.slogan-btn {
+    background-color: lightgreen;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.hero-section {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    gap:20px;
+    height:20vh;
+    
+}
+
+.hero-section div {
+    background-color: lightblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 33%;
+    height:100%;
+}
+
+.hero-section div i {
+    font-size:2.4rem;
+    margin-bottom:10px;
+}
+
+.depoimentos-titulo {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-depoimentos {
+    display:grid;
+    grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr;
+    height:30vh;
+    padding-bottom:20px;
+}
+
+.grid-depoimentos div {
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.grid-depoimentos div img {
+    height:100px;
+    width:100px;
+    border-radius: 200px;
+    
+}
+
+.grid-pessoas {
+    display:flex;
+    gap:30px;
+    justify-content: center;
+
+}
+
+.depoimento-container {
+    width:300px;
+    text-align: justify;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: lightblue;
+}
+
+footer img {
+    height:80px;
+
+}
+
+.links-uteis ul {
+    padding:0;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.links-uteis ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+.footer-itens {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 33%;
+    height:100%;
+
+}
+
+.sociais {
+    display:flex;
+    gap:10px;
+}
+
+.copyRight {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.copyRight p {
+    margin: 0;
+    padding: 0;
+}
+
+.saude {
+    min-width: 63px;
+}
+
